@@ -4,6 +4,6 @@ import { addons } from '@storybook/addons';
 addons.setConfig({
   theme:create({
     base: 'light',
-    brandTitle: 'TS storybook starter'
+    brandTitle: 'MyAcme Storybook: UX and UI Styleguide'
   })
 });
