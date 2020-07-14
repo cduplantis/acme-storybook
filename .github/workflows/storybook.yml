@@ -18,3 +18,5 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2.1.0
         with:
           build_dir: storybook-static
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
