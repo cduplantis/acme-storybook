@@ -17,4 +17,4 @@ jobs:
       - name: Deploy 🚀
         uses: crazy-max/ghaction-github-pages@v2.1.0
         with:
-          build_dir: build
+          build_dir: storybook-static
